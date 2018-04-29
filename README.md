@@ -47,6 +47,10 @@ SOFTWARE.
 1. Make sure you try to Rebuild the project before anything
 2. Add in Issue to the Git Repository!
 
+# A Big Help Making This Project:
+
+http://www.theappguruz.com/blog/instagram-integration-android-application-tutorial
+
 # Preview:
 
 <img src="https://github.com/RonArelStudent/IntagramOfficialAPI-Android.Implementation/blob/master/SmartSelect_20180429-025647_TagNet.jpg" width="300" align="left">
