@@ -7,7 +7,7 @@ This application displays and implements:
 - Your Profile Image
 - Your Fullname
 - Your Username
-- Your Bio"
+- Your Bio
 - Your Number of Followers and Followings
 
 # Fair Use:
@@ -49,9 +49,8 @@ SOFTWARE.
 
 # Preview:
 
-<img src="https://github.com/RonArelStudent/EasyInstagramPrivateAPIExample/blob/master/SmartSelect_20180429-012602_TagNet.jpg" width="300" align="left">
+<img src="https://github.com/RonArelStudent/IntagramOfficialAPI-Android.Implementation/blob/master/SmartSelect_20180429-025647_TagNet.jpg" width="300" align="left">
 <img src="https://github.com/RonArelStudent/EasyInstagramPrivateAPIExample/blob/master/SmartSelect_20180429-012712_TagNet.jpg" width="300" align="left">
-<img src="https://github.com/RonArelStudent/EasyInstagramPrivateAPIExample/blob/master/SmartSelect_20180429-012658_TagNet.jpg" width="300" align="left">
-<img src="https://github.com/RonArelStudent/EasyInstagramPrivateAPIExample/blob/master/SmartSelect_20180429-015156_TagNet.jpg" width="300" align="left">
+
 
 
