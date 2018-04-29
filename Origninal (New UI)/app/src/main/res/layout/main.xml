@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:theme="@style/Theme.AppCompat"
+    tools:context="com.example.ortel.tagnet.MainActivityOld"
+
+    >
+
+
+    <LinearLayout
+        android:theme="@style/Theme.AppCompat"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dip"
+            android:layout_weight="0.03"
+            android:text="Connect" />
+    <LinearLayout
+        android:id="@+id/llAfterLoginView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

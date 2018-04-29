@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.ortel.tagnet.MainActivity"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.ortel.tagnet.MainActivity"
+    android:orientation="vertical">
+     <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_above="@+id/tabs"
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="|">
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="6dp"
+                android:layout_marginStart="-10dp"
+                android:layout_marginLeft="-20dp"
+                android:gravity="center_vertical|center_horizontal|center|left"
+                android:scaleType="fitXY"
+                android:text="Taggoz"
+                android:textColor="@color/tagbuttontext"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:tint="@color/tagbuttontext"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/fab"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginTop="-5dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:scaleType="fitXY"
+                android:tint="@color/tagbuttontext"
+                app:srcCompat="@drawable/ic_exit_to_app_black_24dp"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:id="@+id/fab1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FFF"
+                android:scaleType="fitXY"
+                android:tint="#FFF"
+                app:srcCompat="@drawable/ic_error_outline_black_24dp" />
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  (Space for Anything)"/>
+</LinearLayout>
+
+<LinearLayout
+android:id="@+id/my_view1"
+android:background="#FFF"
+android:orientation="vertical"
+android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_height="660dp">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:text="  In this example application, you can see:"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="  - Your Profile Image"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="  - Your Fullname"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="  - Your Username"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="  - Your Bio"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="  - Your Number of Followers and Followings"/>
+</LinearLayout>
+
+</RelativeLayout>
