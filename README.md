@@ -50,7 +50,7 @@ SOFTWARE.
 # Preview:
 
 <img src="https://github.com/RonArelStudent/IntagramOfficialAPI-Android.Implementation/blob/master/SmartSelect_20180429-025647_TagNet.jpg" width="300" align="left">
-<img src="https://github.com/RonArelStudent/EasyInstagramPrivateAPIExample/blob/master/SmartSelect_20180429-012712_TagNet.jpg" width="300" align="left">
+<img src="https://github.com/RonArelStudent/IntagramOfficialAPI-Android.Implementation/blob/master/SmartSelect_20180429-025700_TagNet.jpg" width="300" align="left">
 
 
 
